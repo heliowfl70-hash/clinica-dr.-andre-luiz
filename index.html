@@ -1,0 +1,291 @@
+<!DOCTYPE html><html class="light" lang="pt-BR"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Clínica Dr. André Luís – Fisioterapia, Ozonioterapia, Acupuntura, Massagem</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface": "#fefee5",
+                        "surface-container": "#f4f6d2",
+                        "inverse-primary": "#aff4d6",
+                        "primary": "#2d7058",
+                        "error-container": "#fa746f",
+                        "tertiary-dim": "#27606b",
+                        "surface-container-lowest": "#ffffff",
+                        "outline-variant": "#b9bc94",
+                        "secondary-dim": "#256251",
+                        "outline": "#80835f",
+                        "primary-fixed": "#adf1d3",
+                        "on-primary-fixed": "#004935",
+                        "error": "#af3d3b",
+                        "surface-container-low": "#fbfcdc",
+                        "tertiary": "#356c77",
+                        "surface-tint": "#2d7058",
+                        "secondary": "#336f5c",
+                        "secondary-fixed": "#b1efd8",
+                        "on-secondary": "#ffffff",
+                        "surface-container-high": "#eef1cb",
+                        "secondary-container": "#b1efd8",
+                        "on-primary-fixed-variant": "#236750",
+                        "surface-container-highest": "#e8ebc0",
+                        "surface-variant": "#e8ebc0",
+                        "on-surface": "#373a1c",
+                        "on-secondary-fixed": "#004938",
+                        "surface-bright": "#fefee5",
+                        "secondary-fixed-dim": "#a3e1ca",
+                        "inverse-surface": "#0e0f03",
+                        "on-tertiary-fixed-variant": "#2d6570",
+                        "primary-fixed-dim": "#9fe2c6",
+                        "background": "#fefee5",
+                        "on-error-container": "#6e0a12",
+                        "on-tertiary-fixed": "#034853",
+                        "on-primary": "#ffffff",
+                        "tertiary-container": "#b7eefc",
+                        "on-secondary-container": "#1d5c4a",
+                        "on-surface-variant": "#636745",
+                        "on-background": "#373a1c",
+                        "on-tertiary-container": "#215b66",
+                        "on-secondary-fixed-variant": "#296654",
+                        "tertiary-fixed-dim": "#a9e0ed",
+                        "tertiary-fixed": "#b7eefc",
+                        "on-error": "#ffffff",
+                        "error-dim": "#67040d",
+                        "inverse-on-surface": "#9e9e88",
+                        "primary-dim": "#1f634d",
+                        "surface-dim": "#e3e6bb",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-container": "#165c46",
+                        "primary-container": "#adf1d3"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Manrope"],
+                        "body": ["Plus Jakarta Sans"],
+                        "label": ["Plus Jakarta Sans"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #fefee5; color: #373a1c; overflow-x: hidden; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24; }
+        .hero-gradient { background: linear-gradient(135deg, #2d7058 0%, #1f634d 100%); }
+        .glass-nav { backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
+    </style>
+</head>
+<body class="selection:bg-primary-container selection:text-on-primary-container">
+<!-- Top Navigation Bar -->
+<header class="fixed top-0 w-full z-50 bg-[#fefee5]/70 dark:bg-stone-900/70 backdrop-blur-xl shadow-[0px_20px_40px_rgba(55,58,28,0.06)]">
+<nav class="flex justify-between items-center h-20 px-8 max-w-7xl mx-auto">
+<div class="text-2xl font-black text-[#373a1c] dark:text-[#fefee5] font-['Manrope'] tracking-tight" style="">
+                Dr. Andre Luiz</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-['Manrope'] font-bold tracking-tight text-[#2d7058] dark:text-[#a8e6cf] border-b-2 border-[#2d7058] pb-1" href="#inicio" style="">Início</a>
+<a class="font-['Manrope'] font-bold tracking-tight text-[#373a1c] dark:text-stone-400 hover:text-[#2d7058] transition-colors" href="#sobre" style="">Sobre</a>
+<a class="font-['Manrope'] font-bold tracking-tight text-[#373a1c] dark:text-stone-400 hover:text-[#2d7058] transition-colors" href="#servicos" style="">Serviços</a>
+<a class="font-['Manrope'] font-bold tracking-tight text-[#373a1c] dark:text-stone-400 hover:text-[#2d7058] transition-colors" href="#contato" style="">Contato</a>
+</div>
+<div class="flex items-center gap-4">
+<a class="hidden md:flex px-6 py-2.5 rounded-xl hero-gradient text-white font-headline font-bold text-sm hover:scale-95 active:scale-90 duration-200 transition-all shadow-lg" href="https://wa.me/5511945255087?text=Olá%2C%20gostaria%20de%20agendar%20uma%20consulta" style="">Agendar via WhatsApp</a>
+<span class="material-symbols-outlined text-[#2d7058] cursor-pointer hover:bg-[#e8ebc0]/50 p-2 rounded-full transition-all" data-icon="chat" style="">chat</span>
+</div>
+</nav>
+</header>
+<!-- Hero Section -->
+<section class="pt-32 pb-20 px-8 max-w-7xl mx-auto overflow-hidden" id="inicio">
+<div class="flex flex-col lg:flex-row items-center gap-16">
+<div class="lg:w-1/2 space-y-8">
+<h1 class="text-5xl md:text-7xl font-headline font-extrabold text-on-surface leading-[1.1] tracking-tighter" style="">
+                    Cuidando da sua <span class="text-primary" style="">saúde</span> com excelência.
+                </h1>
+<p class="text-xl text-on-surface-variant font-body leading-relaxed max-w-xl" style="">
+                    Recupere sua mobilidade e bem-estar através da Fisioterapia, Ozonioterapia, Acupuntura e Massagem Terapêutica em um ambiente projetado para sua cura.
+                </p>
+<div class="flex flex-wrap gap-4">
+<a class="px-8 py-4 rounded-xl hero-gradient text-white font-headline font-bold text-lg shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1" href="https://wa.me/5511945255087?text=Olá%2C%20gostaria%20de%20agendar%20uma%20consulta" style="">
+                        Agende sua consulta
+                    </a>
+<div class="flex items-center gap-3 px-6 py-4 rounded-xl bg-surface-container-highest/30">
+<span class="material-symbols-outlined text-primary" data-icon="verified_user" style="">verified_user</span>
+<span class="font-label text-sm font-semibold tracking-wide uppercase text-on-surface-variant" style="">Atendimento Humanizado</span>
+</div>
+</div>
+</div>
+<div class="lg:w-1/2 relative">
+<div class="absolute -top-10 -left-10 w-64 h-64 bg-primary-container rounded-full mix-blend-multiply filter blur-3xl opacity-30"></div>
+<div class="absolute -bottom-10 -right-10 w-64 h-64 bg-tertiary-container rounded-full mix-blend-multiply filter blur-3xl opacity-30"></div>
+<img alt="Physiotherapy session" class="relative z-10 w-full aspect-[4/5] object-cover rounded-[2rem] shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-700" data-alt="Modern physiotherapy clinic interior with a professional therapist performing a manual rehabilitation technique on a patient in a bright sunlit room" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBm8bnN9Hk2lx8KqTj_DwNF6p-gtwQ626gNgaX1ywSeBzY3bX7w5OT3GV7nxLjGs2zwgP5VHJfgotmTmGtCC1W-Egp39QAXYw8RKGPsKF-gOpLjlOTMFTWoCd6pWppLPUXcSisX8o7sruKzq_sqa9eimHr8N1-n2KyiMmfot8GnjGU6TGFaoErOGR8H5wTz9puNMiFGKxF7Wm5rz-x4ysMr5XhcvcZD5S8HMkbQWWRO06qPcAyOGbkSWoPHFPyh0tprXEUFt4WotzA2" style="">
+</div>
+</div>
+</section>
+<!-- Sobre Section -->
+<section class="py-24 bg-surface-container-low" id="sobre">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+<div class="order-2 lg:order-1">
+<img alt="Healthcare Professional" class="rounded-[2.5rem] shadow-lg w-full max-h-[600px] object-cover -rotate-3 hover:rotate-0 transition-transform duration-500" data-alt="Professional doctor in a clean clinical environment with a warm and welcoming expression, soft natural lighting" src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepOdanCiQ1gKNtijsakvjbYTXRMT8QqzRyZDWlU-XQxfMsdiT26PJBkg7uMgoZVpyHU1EvIy0HjKBzrusO4yxely4khKCVSxQ7qPjrVfdTdnmfSH40Kh7Ew8Z0Bz6UYuBmccc8wRZAZycTH=s680-w680-h510-rw" style="">
+</div>
+<div class="order-1 lg:order-2 space-y-6">
+<span class="text-primary font-headline font-extrabold uppercase tracking-[0.2em] text-sm" style="">Nossa Missão</span>
+<h2 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight" style="">Clínica Dr. André Luís</h2>
+<p class="text-lg text-on-surface-variant font-body leading-relaxed" style="">
+                        Com anos de experiência clínica, o Dr. André Luís combina técnicas tradicionais de fisioterapia com inovações como a ozonioterapia e o milenar conhecimento da acupuntura.
+                    </p>
+<p class="text-lg text-on-surface-variant font-body leading-relaxed" style="">
+                        Nosso foco não é apenas tratar a dor, mas entender o paciente como um todo. Proporcionamos um atendimento humanizado, onde a qualidade técnica e o acolhimento andam de mãos dadas para acelerar sua recuperação.
+                    </p>
+<div class="pt-6 grid grid-cols-2 gap-8 border-t border-outline-variant/20">
+<div>
+<span class="block text-3xl font-headline font-black text-primary" style="">15+</span>
+<span class="text-sm font-label text-on-surface-variant font-medium" style="">Anos de Experiência</span>
+</div>
+<div>
+<span class="block text-3xl font-headline font-black text-primary" style="">5k+</span>
+<span class="text-sm font-label text-on-surface-variant font-medium" style="">Vidas Transformadas</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Serviços Section -->
+<section class="py-24 px-8 max-w-7xl mx-auto" id="servicos">
+<div class="text-center mb-16 space-y-4">
+<h2 class="text-4xl md:text-5xl font-headline font-black text-on-surface tracking-tight" style="">Nossas Especialidades</h2>
+<p class="text-on-surface-variant font-body max-w-2xl mx-auto" style="">Técnicas integrativas para um tratamento completo e personalizado.</p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Service Card 1 -->
+<div class="p-8 rounded-[2rem] bg-surface-container-lowest shadow-sm hover:shadow-xl transition-all duration-300 group">
+<div class="w-14 h-14 rounded-2xl bg-primary-container flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="exercise" style="">exercise</span>
+</div>
+<h3 class="text-xl font-headline font-bold text-on-surface mb-3" style="">Fisioterapia</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed" style="">Reabilitação física para lesões ortopédicas, neurológicas e dores crônicas.</p>
+</div>
+<!-- Service Card 2 -->
+<div class="p-8 rounded-[2rem] bg-surface-container-highest/30 shadow-sm hover:shadow-xl transition-all duration-300 group">
+<div class="w-14 h-14 rounded-2xl bg-tertiary-container flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-tertiary text-3xl" data-icon="medical_services" style="">medical_services</span>
+</div>
+<h3 class="text-xl font-headline font-bold text-on-surface mb-3" style="">Ozonioterapia</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed" style="">Tratamento auxiliar com propriedades anti-inflamatórias e analgésicas potentes.</p>
+</div>
+<!-- Service Card 3 -->
+<div class="p-8 rounded-[2rem] bg-surface-container-lowest shadow-sm hover:shadow-xl transition-all duration-300 group">
+<div class="w-14 h-14 rounded-2xl bg-secondary-container flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-secondary text-3xl" data-icon="self_improvement" style="">self_improvement</span>
+</div>
+<h3 class="text-xl font-headline font-bold text-on-surface mb-3" style="">Acupuntura</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed" style="">Equilíbrio energético e alívio de tensões através da medicina tradicional chinesa.</p>
+</div>
+<!-- Service Card 4 -->
+<div class="p-8 rounded-[2rem] bg-surface-container-highest/30 shadow-sm hover:shadow-xl transition-all duration-300 group">
+<div class="w-14 h-14 rounded-2xl bg-primary-fixed flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="spa" style="">spa</span>
+</div>
+<h3 class="text-xl font-headline font-bold text-on-surface mb-3" style="">Massagem</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed" style="">Técnicas manuais para relaxamento muscular e redução do estresse diário.</p>
+</div>
+</div>
+</section>
+<!-- Localização Section -->
+<section class="py-24 bg-surface-container" id="localizacao">
+<div class="max-w-7xl mx-auto px-8">
+<div class="bg-surface-container-lowest rounded-[3rem] overflow-hidden shadow-2xl flex flex-col lg:flex-row">
+<div class="lg:w-1/2 p-12 lg:p-20 space-y-8 flex flex-col justify-center">
+<span class="text-primary font-headline font-bold uppercase tracking-widest text-xs" style="">Visite-nos</span>
+<h2 class="text-4xl font-headline font-bold text-on-surface leading-tight" style="">Localização Privilegiada</h2>
+<div class="space-y-4">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary" data-icon="location_on" style="">location_on</span>
+<p class="text-on-surface-variant text-lg" style="">
+                                R. Líbia, 61 - Parque Oratório,<br>Santo André - SP, 09251-020
+                            </p>
+</div>
+</div>
+<a class="inline-flex items-center justify-center px-8 py-4 rounded-xl border-2 border-primary text-primary font-headline font-bold hover:bg-primary hover:text-white transition-all w-fit" href="https://www.google.com/maps/search/?api=1&amp;query=R.+Líbia,+61+-+Parque+Oratório,+Santo+André+-+SP,+09251-020" style="" target="_blank">
+                        Ver no Google Maps
+                    </a>
+</div>
+<div class="lg:w-1/2 min-h-[400px] relative">
+<img alt="Map location placeholder" class="absolute inset-0 w-full h-full object-cover" data-alt="Clean aerial city map aesthetic with soft green and beige tones, showcasing a medical district layout" data-location="Santo André, Brazil" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5DLmRA1Kr9m8r_MOYPDFGRGElvT5mY6FIyHLErOwR2__XemaOPholx5FjcVRjLUcDuJVWRBQiBfWjulk_chdV5O2wFOtbl1EO9CJsC8QTk3Zt7BJhBwXNJK2tyLZ7YpnH-40FeTG4wsg7XXMVQex6GudRsExmhPhnbCNilPhgdDhq-fwWyPUxe2b_sYuY4xab3536CXr4N_VWa671_CqJDOwIytyAu0Hz5HhLaxL2gsNwKBSmOJ_FTxOisuy2PIs_vnYH5VkV9CqP" style="">
+</div>
+</div>
+</div>
+</section>
+<!-- Contato Section -->
+<section class="py-24 px-8 max-w-7xl mx-auto" id="contato">
+<div class="bg-surface-container-highest/20 rounded-[3rem] p-12 lg:p-20 border border-outline-variant/10">
+<div class="grid lg:grid-cols-2 gap-16">
+<div>
+<h2 class="text-4xl md:text-5xl font-headline font-black text-on-surface mb-8" style="">Vamos iniciar sua jornada de saúde?</h2>
+<p class="text-lg text-on-surface-variant mb-12" style="">Estamos prontos para atender você e sua família com o cuidado que vocês merecem. Entre em contato pelos nossos canais oficiais.</p>
+<div class="space-y-6">
+<a class="flex items-center gap-4 group" href="tel:11945255087" style="">
+<div class="w-12 h-12 rounded-full bg-white flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary" data-icon="call" style="">call</span>
+</div>
+<span class="text-xl font-headline font-bold text-on-surface" style="">(11) 94525-5087</span>
+</a>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-white flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-primary" data-icon="schedule" style="">schedule</span>
+</div>
+<span class="text-xl font-headline font-bold text-on-surface" style="">Segunda - Sexta: 08h às 18h</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col justify-center gap-6">
+<a class="flex items-center justify-between p-8 rounded-[2rem] bg-primary text-white hover:bg-primary-dim transition-all group" href="https://wa.me/5511945255087?text=Olá%2C%20gostaria%20de%20agendar%20uma%20consulta" style="">
+<div class="space-y-1">
+<p class="text-white/70 text-sm font-label font-medium uppercase tracking-widest" style="">Clique para conversar</p>
+<p class="text-2xl font-headline font-bold" style="">WhatsApp Agendamentos</p>
+</div>
+<span class="material-symbols-outlined text-4xl group-hover:translate-x-2 transition-transform" data-icon="arrow_forward" style="">arrow_forward</span>
+</a>
+<div class="p-8 rounded-[2rem] bg-surface-container-lowest border border-outline-variant/20">
+<div class="flex items-center gap-3 mb-4">
+<div class="w-2 h-2 rounded-full bg-primary animate-pulse"></div>
+<span class="text-xs font-label font-bold uppercase text-primary" style="">Disponível agora</span>
+</div>
+<p class="text-on-surface-variant text-sm" style="">Nossa equipe responderá em poucos minutos para agendar seu melhor horário.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full py-12 border-t border-[#b9bc94]/20 bg-[#fbfcdc] dark:bg-stone-950">
+<div class="flex flex-col md:flex-row justify-between items-center px-8 max-w-7xl mx-auto gap-6">
+<div class="font-['Manrope'] font-bold text-[#373a1c] text-xl" style="">
+                Dr. Andre Luiz&nbsp;</div>
+<div class="flex gap-8">
+<a class="font-['Plus_Jakarta_Sans'] text-sm tracking-wide text-[#373a1c]/70 dark:text-stone-500 hover:text-[#2d7058] dark:hover:text-[#a8e6cf] transition-colors" href="#" style=""><br></a>
+<a class="font-['Plus_Jakarta_Sans'] text-sm tracking-wide text-[#373a1c]/70 dark:text-stone-500 hover:text-[#2d7058] dark:hover:text-[#a8e6cf] transition-colors" href="#" style=""><br></a>
+<a class="font-['Plus_Jakarta_Sans'] text-sm tracking-wide text-[#373a1c]/70 dark:text-stone-500 hover:text-[#2d7058] dark:hover:text-[#a8e6cf] transition-colors" href="#" style=""><br></a>
+</div>
+<p class="font-['Plus_Jakarta_Sans'] text-sm tracking-wide text-[#373a1c]/70 dark:text-stone-500 text-center" style=""><span style="color: rgb(102, 102, 102); font-family: system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; font-size: 14.4px; letter-spacing: normal; background-color: rgb(250, 249, 246);">© 2026 Clínica Dr. André Luís. Todos os direitos reservados.</span></p>
+</div>
+</footer>
+<!-- Floating WhatsApp Button -->
+<a aria-label="Contact via WhatsApp" class="fixed bottom-8 right-8 w-16 h-16 bg-[#25d366] text-white rounded-full flex items-center justify-center shadow-2xl z-[100] hover:scale-110 active:scale-95 transition-all group" href="https://wa.me/5511945255087?text=Olá%2C%20gostaria%20de%20agendar%20uma%20consulta" style="">
+<svg class="w-8 h-8 fill-current" viewBox="0 0 24 24">
+<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path>
+</svg>
+<span class="absolute right-full mr-4 bg-on-surface text-white px-4 py-2 rounded-lg text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap" style="">Agende agora!</span>
+</a>
+</body></html>
